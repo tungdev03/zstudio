@@ -1,6 +1,7 @@
+'use client'
 import React from 'react'
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
       Chào mừng đến với Z-Studio
@@ -8,4 +9,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HomePage
