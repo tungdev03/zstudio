@@ -17,8 +17,8 @@ export default function Login() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 relative overflow-hidden">
-      <AnimatedCanvas className="absolute login-canvas w-full h-full" config={defaultCanvasConfig} />
-
+      {/* <AnimatedCanvas className="absolute login-canvas w-full h-full" config={defaultCanvasConfig} /> */}
+      <Image src="/assets/background.jpeg" width={100} height={100} className="absolute w-full h-full" alt="Background Image"></Image>
       <div className="relative z-10 flex items-center justify-center w-full">
         <div>
           <div className="min-h-screen flex items-center justify-center relative overflow-hidden">

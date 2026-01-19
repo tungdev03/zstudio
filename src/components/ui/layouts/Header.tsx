@@ -4,9 +4,11 @@ import Button from '@/components/ui/atoms/Button'
 import { mainMenuConfig } from '@/lib/menuConfig'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
 const Header = () => {
+    const router = useRouter()
 
     return (
         <>
@@ -46,7 +48,7 @@ const Header = () => {
                     ))}
                 </nav>
 
-                <Button variant="primary" className="w-32 h-11">
+                <Button variant="primary" className="w-32 h-11" onClick={() => router.push('/login')}>
                     Đăng nhập
                 </Button>
             </div>
