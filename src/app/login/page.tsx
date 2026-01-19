@@ -1,8 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
-import AnimatedCanvas from "../../components/AnimatedCanvas";
-import defaultCanvasConfig from "../../lib/canvasConfig";
+// import AnimatedCanvas from "../../components/AnimatedCanvas";
+// import defaultCanvasConfig from "../../lib/canvasConfig";
 import Image from "next/image";
 
 export default function Login() {
